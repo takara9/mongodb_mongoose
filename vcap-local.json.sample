@@ -1,0 +1,28 @@
+{
+ "services": {
+  "compose-for-mongodb": [
+   {
+    "credentials": {
+     "ca_certificate_base64": "",
+     "db_type": "mongodb",
+     "deployment_id": "",
+     "maps": [],
+     "name": "",
+     "uri": "mongodb://****n?ssl=true",
+     "uri_cli": "mongo --ssl --sslAllowInvalidCertificates ***"
+    },
+    "label": "compose-for-mongodb",
+    "name": "Compose for MongoDB-no",
+    "plan": "Standard",
+    "provider": null,
+    "syslog_drain_url": null,
+    "tags": [
+     "big_data",
+     "data_management",
+     "ibm_created"
+    ],
+    "volume_mounts": []
+   }
+  ]
+ }
+}
